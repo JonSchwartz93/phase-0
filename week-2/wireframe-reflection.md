@@ -1,7 +1,7 @@
 ![wireframe-index](imgs/wireframe-index.png)
 ![wireframe-blog-index](imgs/wireframe-blog-index.png)
 
-<h1>What is a wireframe?<h1>
+<h1>What is a wireframe?</h1>
 A wireframe is a diagram (it can be drawn with pen and paper or created online using one of a multitude of wireframing tools) that displays the functional elements of a website. This layout is used to plan a site's structure and functionality.
 
 <h1>What are the benefits of wireframing?</h1>
