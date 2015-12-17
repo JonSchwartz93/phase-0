@@ -29,4 +29,4 @@ A pull request is a way to merge code from a different branch into the master br
 Within the pull request, find the "Merge pull request" button that appears on the "Conversation" tab of your pull request. Then click "Confirm merge." You will then be asked if you'd like to "Delete branch." Click this as a method of "house-keeping" to keep your branches organized. 
 
 **Why are pull requests preferred when working with teams?**
-Pull requests are preferred when working with teams because they create a linkable page that allows developers to review code together.
+Pull requests are preferred when working with teams because they create an easily accessible page that allows developers to review code together.
