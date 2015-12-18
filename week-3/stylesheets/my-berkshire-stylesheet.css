@@ -1,0 +1,147 @@
+html {
+  background-color: #ffffff;
+  color:#000080;
+}
+
+a:link {
+  color: #800080;
+}
+
+a:visited{
+  color: #ff0000;
+}
+
+header{
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  line-height: 0em;
+}
+
+span{
+  font-size: 34px;
+}
+
+header p:first-child{
+  font-size: 17px;
+}
+
+header p:nth-child(2){
+  font-size: 14px;
+}
+
+header p:nth-child(3){
+  font-size: 14px;
+}
+
+section{
+  line-height: 3.3em;
+  margin-top: -20px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.column{
+  margin-left: 20px;
+}
+
+li p{
+  font-size: 10px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+aside{
+  text-align: center;
+  font-size: 10px;
+  padding: 7px;
+}
+
+.line{
+  width:98%;
+  height:1px;
+  background: grey;
+}
+
+article{
+  font-size: 13px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+footer{
+  font-size: 16px;
+}
+
+#copyright {
+  font-size: 10px
+}
+
+/*
+What is important to know when linking an external file 
+(like a stylesheet) to an HTML file?
+
+When linking an external file such as a stylesheet to an HTML file, 
+the most important thing to consider is the syntax of the <link> tag 
+that connects the two files. In order to link an external stylesheet 
+like we did in this assignment, the syntax is as follows: 
+
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+The "rel" attribute used to define the relationship between the linked 
+file (CSS) and the HTML document. The "type" attribute defines the type 
+of stylesheet linked, such as text/css, which indicates a Cascading Style 
+Sheet format. Finally, the "href" attribute specifies the URL or file 
+path of the linked resource, and can be absolute or relative. (Note: if the 
+"href" is a file path, be sure to use "../" to go up a directory.)
+
+What tricks did you use to help you with positioning? How hard was 
+it to get the site as you wanted it?
+
+One strategy I used for positioning the site was trial and error.
+This was a bit tedious, so my pair and I opted to separate the 
+website using some of the HTML5 structural tags, namely, <header>,
+<section>, <aside>, <article>, and <footer>. These (which are 
+essentially <div>s) heled us organize the Berkshire site into 
+containers of content that we could position individually in order 
+to get the site as we wanted it. It was a bit difficult to do 
+this because this was the first time I had dealt with setting 
+the margins, padding, line-heights, etc. of a website, but I feel
+as though as I continue to play around with CSS it will become 
+much more familiar to me.
+
+What CSS did you use to modify the element style (like size, 
+color, etc.)?
+
+My pair and I used color, font-size, font-weight, text-align, line-height,
+margin, padding, width, height, and background to modify the element style. 
+
+Did you modify the HTML to include classes or ids? If so, which did 
+you choose and why? If you didn't, how would you know which one to 
+add to your HTML?
+
+My pair and I incorporated classes into our HTML in order to create the 
+four horizontal lines present on the Berkshire site. We also used it to 
+position out two "columns" of our table. We opted to do this because classes
+are useful when you have several elements that should all receive the 
+same styling. Rather than applying the same rules to several selectors, you
+can simply apply the same class to all those HTML elements, then define the 
+styling for that class in the CSS file. Additionally, we chose to use ids 
+in order to format the copyright statement present at the bottom of the 
+Berkshire site. Our thought process led us to this decision because ids are 
+great for when you have exactly one element that should receive a certain 
+kind of styling. In this case, the only element that needed to be that 
+small was the copyright statement.
+
+When you compared your site to the actual code base, which do you 
+think had cleaner code that followed best practices and why?
+
+When comparing our site to the actual source code, I think our code is 
+much cleaner and more closely follows HTML best practices. In my opinion,
+we made better use of indentations in our code (specifically with regard 
+to closing tags), which greatily improved the readability of the code. 
+Additionally, the original Berkshire site employs inline-styling which is 
+a major "no-no" when it comes to HTML best practices.
+*/ 
