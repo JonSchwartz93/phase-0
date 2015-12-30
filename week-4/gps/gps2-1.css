@@ -1,0 +1,33 @@
+* {
+  font-family: Tahoma;
+}
+header {
+  background-color: blue;
+  margin: auto;
+  text-align: center;
+}
+
+.column-1{
+  background-color:green;
+  width: 45%;
+  height: 1250px;
+  display: inline-block;
+  padding-right: 25px;
+}
+.column-2{
+  background-color: orange;
+  width: 45%;
+  height: 1250px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  float: right;
+}
+footer {
+  background-color: red;
+  font-size: 12pt;
+  border-top: white solid 30px;
+}
+a:hover {
+  color: white;
+}
