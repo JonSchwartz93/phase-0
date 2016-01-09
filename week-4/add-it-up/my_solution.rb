@@ -42,7 +42,6 @@ def total(num_array)
 	return num_array.inject { |total_sum, x| total_sum + x}
 end
 
-
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
 # Input: Array of strings
