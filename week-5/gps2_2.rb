@@ -1,11 +1,12 @@
 #GPS 2.2
 #Your grocery list has the following minimum requirements. You will need to have separate methods for each of the following use cases:
-
 #Create a new list
 #Add an item with a quantity to the list
 #Remove an item from the list
 #Update quantities for items in your list
 #Print the list (Consider how to make it look nice!)
+
+# 1) Pseudocode
 
 # Method to create a list
 # input: string of items separated by spaces (example: "carrots apples cereal pizza")
@@ -46,6 +47,7 @@
   # ITERATE over hash and for every key/value pair UPCASE the key and interpolate into string in the format "[key] - [value]" and print this string on a new line.
   # output: A properly formatted list
 
+# 2) Initial Solutions
 def create_list(items)
   list = Hash.new(1)
   list_items = items.split(' ')
@@ -145,3 +147,23 @@ update_quantity(list, item, quantity)
 # update_quantity(list, "apple", 3)
 
 # p list == {"apple" => 3, "milk" => 1, "eggs" => 1, "butter" => 4}
+
+# 3) Reflection
+
+# What did you learn about pseudocode from working on this challenge?
+# While working through this challenge, there are several things I learned about pseudocode. One takeaway is that when creating several methods that interact with one another it is important to consider how they work together during the writing of the pseudocode. I also learned more about pseudocoding conventions. My guide for this challenge sent my pair and I a link to the "Pseudocode Standards" which explains what to do/what not to do when it comes to pseudocode.
+
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+# For this challenge, Hashes seemed liked the best data structure to use. Because hashes are comprised of unique key-value pairs, this aligned well with organizing our data in this challenge in the format of shopping_item-quantity. In other words, hashes are very useful for unordered lists. Arrays, on the other hand, are useful for ordered lists.
+
+# What does a method return?
+# Depending on what the method is being used to achieve, that method can return a myriad of things. Things to consider: Does the method use an argument (have input)? What is the block of code between 'def' and 'end' doing?
+
+# What kind of things can you pass into methods as arguments?
+# You can pass a variety of things into a method as an argument including an array, a hash, an integer and a string.
+
+# How can you pass information between methods?
+# You can pass information between methods by calling one method inside of another (as we did the 'print_list' method) and also by using the same arguments between methods.
+
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+# After this challenge, I definitely feel more comfortable writing methods and using hashes. I'm still a bit confused about passing information between methods (the previous question).
