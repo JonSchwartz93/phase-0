@@ -9,7 +9,7 @@
 # Output (What should the code return?): a comma-separated integer as a string
 # Steps:
 # 1) DEFINE separate_comma method
-# 2) 	IF integer <= 999
+# 2) IF integer <= 999
 # 3) 	RETURN integer converted to a string
 # 4) ELSIF 1000 <= integer <= 9999	
 # 5) 	RETURN comma-separated integer (with comma between index 0 and 1)
