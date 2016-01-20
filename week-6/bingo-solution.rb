@@ -7,12 +7,13 @@
 # DEFINE class BingoBoard
 
 #   DEFINE initialize method which takes a default board as its argument  
-#     CREATE intance variables @board and @letters to be used later in the       program
+#     CREATE intance variables @board and @letters to be used later in the program
 #   END
 
 #   DEFINE method "generate"
 #     CREATE an array containing the letters [b, i, n, g, o]
-#     RETURN a random letter from the array and a random number between 1-100           ASSIGN this output to an instance variable for use later, "@call_piece"
+#     RETURN a random letter from the array and a random number between 1-100. 
+#     ASSIGN this output to an instance variable for use later, "@call_piece"
 #   END
 
 #   DEFINE method "display"
