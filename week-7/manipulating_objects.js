@@ -43,6 +43,7 @@ adam.children = terah.children;
 
 // How difficult was it to add and delete properties outside of the object itself?
 // Once I figured out how to properly use the dot notation as well as the "delete" operator, adding and deleting properties outside of the object itself became very easy.
+
 // What did you learn about manipulating objects in this challenge?
 // I learned how to create an object within an object, as well as how to add/delete properties from an object. I also learned how to reference one object within another object (i.e. - referencing 'terah' inside 'adam'.)
 // __________________________________________
