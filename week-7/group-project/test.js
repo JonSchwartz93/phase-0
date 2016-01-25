@@ -14,7 +14,7 @@ function sum(intArray) {
 };
 // test 1 - passed 
 // test 2 - failed
-// test 3 - 
+// test 3 - failed
 
 // MEAN: 
 function mean(intArray) {
@@ -30,10 +30,12 @@ function mean(intArray) {
     console.log("There is an odd amount of numbers. Their mean is " + average);
   }
 };
-
+// test 4 - passed 
+// test 5 - failed
+// test 6 - failed
 
 // MEDIAN: 
-function med(intArray) {
+function median(intArray) {
   intArray = intArray.sort();
   var length = intArray.length;
   var halfLength = length / 2;
@@ -45,16 +47,16 @@ function med(intArray) {
     median = intArray[Math.floor(halfLength)];
     console.log("There is an odd amount of numbers. Their median is " + median);
   }
-
 };
+// test 7 - passed 
+// test 8 - failed
+// test 9 - failed
 
 //__________________________________________
 // Tests:  Do not alter code below this line.
 
-
 oddLengthArray  = [1, 2, 3, 4, 5, 5, 7]
 evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7]
-
 
 function assert(test, message, test_number) {
   if (!test) {
