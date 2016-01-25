@@ -128,7 +128,7 @@ ELSE
 
 //Initial Solution:
 
-function med(intArray) {
+function median(intArray) {
 	intArray = intArray.sort();
 	var length = intArray.length;
 	var halfLength = length / 2;
@@ -153,6 +153,10 @@ med([1,2,3,4,5,6,7,8]);
 
 
 // Person 1: Summary of Tests (which ones passed/failed):
+// Tests that passed:
+// #'s 1, 4, and 7
 
+// Tests that failed:
+// #'s 2, 3, 5, 6, 8, and 9
 
-// Reflection:
+// I'm not exactly sure why our solution wasn't successfully passing the tests. When I ran the actual "group_project_solution.js" file, it was printing the correct statements with the correct numbers (sum, mean, and median for both types of arrays - odd # of elements and even # of elements).
