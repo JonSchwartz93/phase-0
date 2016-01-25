@@ -1,5 +1,54 @@
 // Add the finished solution here when you receive it.
-// __________________________________________
+
+// SUM:
+function sum(intArray) {
+  var total = 0 ;
+  intArray.forEach(function(element) {
+    total += element;
+  });
+  if (intArray.length % 2 === 0) {
+    console.log("There is an even amount of numbers. Their sum is " + total);
+  } else {
+    console.log("There is an odd amount of numbers. Their sum is " + total);
+  }
+};
+// test 1 - passed 
+// test 2 - failed
+// test 3 - 
+
+// MEAN: 
+function mean(intArray) {
+  var n = intArray.length;
+  var total = 0;
+  intArray.forEach(function(element) {
+    total += element;
+  });
+  var average = total / n;
+  if (intArray.length % 2 === 0) {
+    console.log("There is an even amount of numbers. Their mean is " + average);
+  } else {
+    console.log("There is an odd amount of numbers. Their mean is " + average);
+  }
+};
+
+
+// MEDIAN: 
+function med(intArray) {
+  intArray = intArray.sort();
+  var length = intArray.length;
+  var halfLength = length / 2;
+  var median = 0;
+  if (intArray.length % 2 === 0) {
+    median = (intArray[halfLength] + intArray[halfLength - 1])/2;
+    console.log("There is an even amount of numbers. Their median is " + median);
+  } else {
+    median = intArray[Math.floor(halfLength)];
+    console.log("There is an odd amount of numbers. Their median is " + median);
+  }
+
+};
+
+//__________________________________________
 // Tests:  Do not alter code below this line.
 
 
