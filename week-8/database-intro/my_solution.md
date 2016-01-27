@@ -2,66 +2,67 @@
 <ol>
 	<li>
 	Select all data for all states
-	Query:  SELECT * FROM states;
+	<p>Query:  SELECT * FROM states;</p>
 	</li>
 	<li>
 	Select all data for all regions
-	Query: SELECT * FROM regions;
+	<p>Query: SELECT * FROM regions;</p>
 	</li>
 	<li>
 	Select the state_name and population for all states
-	Query: SELECT state_name, population FROM states;
+	<p>Query: SELECT state_name, population FROM states;</p>
 	</li>
 	<li>
-	Select the state_name and population for all states by population. The stte with the highest population should be at the top.
-	Query: SELECT state_name, population
+	Select the state_name and population for all states by population.The stte with the highest population should be at the top.
+	<p>Query: SELECT state_name, population
 		   FROM states
-		   ORDER BY population DESC;
+		   ORDER BY population DESC;</p>
 	</li>
 	<li>
 	Select the state_name for the states in region 7
-	Query: SELECT state_name
+	<p>Query: SELECT state_name
 		   FROM states
-		   WHERE region_id = 7;
+		   WHERE region_id = 7;</p>
 	</li>	   
 	<li>
 	Select the state_name and population_density for states with a population_density over 50 ordered from least to most dense.
-	Query: SELECT state_name, population_density
+	<p>Query: SELECT state_name, population_density
 		   FROM states
 		   WHERE population_density > 50 
-		   ORDER BY population_density ASC;
+		   ORDER BY population_density ASC;</p>
 	</li>
 	<li>
 	Select the state_name for states with a population between 1 million and 1.5 million people.
-	Query: SELECT state_name
+	<p>Query: SELECT state_name
 		   FROM states
 		   WHERE population > 1000000 
-		   AND population < 1500000;
+		   AND population < 1500000;</p>
 	</li>
 	<li>
 	Select the state_name and region_id for states ordered by region in ascending order.
-	Query: SELECT state_name, region_id
+	<p>Query: SELECT state_name, region_id
 		   FROM states 
-		   ORDER BY region_id ASC;
+		   ORDER BY region_id ASC;</p>
 	</li>
 	<li>
 	Select the region_name for the regions with "Central" in the name
-	Query: SELECT region_name
+	<p>Query: SELECT region_name
 		   FROM regions
-		   WHERE region_name LIKE '%CENTRAL%';
+		   WHERE region_name LIKE '%CENTRAL%';</p>
 	</li>
 	<li>
 	Select the region_name and the state_name for all states and regions in ascending order by region_id. Refer to the region by name. (This involves joining the tables).
-	Query: SELECT regions.region_name, states.state_name
+	<p>Query: SELECT regions.region_name, states.state_name
 		   FROM regions
 		   JOIN states ON
 		   regions.id = states.region_id
-		   ORDER BY region_id ASC;
+		   ORDER BY region_id ASC;</p>
 	</li>
 </ol>
 
-<h1>My Schema Design<h1> 
- ![schema_design](schema_design.png)
+<h1>My Schema Design<h1>
+
+![schema-design](schema_design.png)
 
 <h1>Reflection</h1>
 <h3>What are databases for?</h3>
