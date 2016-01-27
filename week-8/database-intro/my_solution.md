@@ -62,7 +62,7 @@
 
 <h1>My Schema Design<h1>
 
-![schema-design](schema_design.png)
+![schema-design](schema-design.jpg)
 
 <h1>Reflection</h1>
 <h3>What are databases for?</h3>
