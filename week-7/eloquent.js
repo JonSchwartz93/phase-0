@@ -46,10 +46,12 @@ min(-23, -18);
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
 var me = {
 	name: "Jon",
+	name: "Bob",
 	age: 22,
 	favorite_foods: ["sushi", "hamburgers", "chocolate"],
 	quirk: "Avid Jeopardy-watcher"
 };
+
 
 console.log(me.name);
 console.log(me.age);
