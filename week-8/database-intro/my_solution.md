@@ -13,7 +13,7 @@
 	<p>Query: SELECT state_name, population FROM states;</p>
 	</li>
 	<li>
-	Select the state_name and population for all states by population.The stte with the highest population should be at the top.
+	Select the state_name and population for all states by population.The state with the highest population should be at the top.
 	<p>Query: SELECT state_name, population
 		   FROM states
 		   ORDER BY population DESC;</p>
@@ -62,7 +62,7 @@
 
 <h1>My Schema Design<h1>
 
-![schema-design](schema-design.jpg)
+![schemadesign](schema-design.jpg)
 
 <h1>Reflection</h1>
 <h3>What are databases for?</h3>
