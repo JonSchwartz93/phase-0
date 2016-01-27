@@ -60,7 +60,7 @@
 	</li>
 </ol>
 
-<h1>My Schema Design<h1>
+<h1>My Schema Design</h1>
 
 ![schema-design](schema-design.png)
 
