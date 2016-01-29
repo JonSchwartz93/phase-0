@@ -1,12 +1,12 @@
 <h3>One-to-One Relationship</h3>
-[!one-to-one](imgs/one-to-one schema.png)
+![one-to-one](imgs/one-to-one schema.png)
 
 <p>
 	In this schema, I've created a one-to-one relationship between two entities, "Persons" and "Social Security #." This is a one-to-one relationship because each person can only have one SS#, and each SS# is unique to a particular person.
 </p>
 
 <h3>Many-to-Many Relationship</h3>
-[!many-to-many](imgs/many-to-many schema.png)
+![many-to-many](imgs/many-to-many schema.png)
 
 <p>
 	In this schema, I've created a many-to-many relationship between two entities, "grocery_lists" and "items." I've also created an intermediary or "join" table called "grocery_lists_items" to connect the two entities. A many-to-many relationship exists between grocery lists and items because each grocery list can contain many items, while many of the same items can appear on multiple grocery lists.
