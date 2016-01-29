@@ -18,7 +18,7 @@
 </p>
 
 <h3>When would you use a one-to-one database? (Think generally, not in terms of the example you created).</h3>
-<p>*(See previous question)*</p>
+*<p>(See previous question)</p>*
 
 <h3>What is a many-to-many database?</h3>
 <p> 
@@ -26,7 +26,7 @@
 </p>
 
 <h3>When would you use a many-to-many database? (Think generally, not in terms of the example you created).</h3>
-<p>*(See previous question)*</p>
+*<p>(See previous question)</p>*
 
 <h3>What is confusing about database schemas? What makes sense?</h3>
 <p>
